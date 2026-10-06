@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="250" viewBox="0 0 960 250" role="img" aria-label="Animated robot building a field of green contribution nodes">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#101b28"/></linearGradient>
+    <linearGradient id="robot" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#58a6ff"/><stop offset="1" stop-color="#1f6feb"/></linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="microgrid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#1b2a3a" stroke-width="1" opacity=".45"/></pattern>
+  </defs>
+  <rect width="960" height="250" rx="18" fill="url(#background)"/>
+  <rect width="960" height="250" rx="18" fill="url(#microgrid)"/>
+  <g stroke="#263e55" stroke-width="2" fill="none" opacity=".9"><path d="M82 70H170L205 104H280"/><path d="M82 190H165L205 155H280"/><path d="M458 125H508"/><path d="M855 42V25H908"/><path d="M855 208V225H908"/></g>
+  <g fill="#ff4d4f" filter="url(#glow)"><circle cx="82" cy="70" r="4"/><circle cx="82" cy="190" r="4"/><circle cx="458" cy="125" r="4"/><circle cx="908" cy="25" r="4"/><circle cx="908" cy="225" r="4"/></g>
+  <g fill="#22313f">
+    <circle cx="555" cy="58" r="9"/><circle cx="603" cy="58" r="9"/><circle cx="651" cy="58" r="9"/><circle cx="699" cy="58" r="9"/><circle cx="747" cy="58" r="9"/><circle cx="795" cy="58" r="9"/><circle cx="843" cy="58" r="9"/>
+    <circle cx="555" cy="106" r="9"/><circle cx="603" cy="106" r="9"/><circle cx="651" cy="106" r="9"/><circle cx="699" cy="106" r="9"/><circle cx="747" cy="106" r="9"/><circle cx="795" cy="106" r="9"/><circle cx="843" cy="106" r="9"/>
+    <circle cx="555" cy="154" r="9"/><circle cx="603" cy="154" r="9"/><circle cx="651" cy="154" r="9"/><circle cx="699" cy="154" r="9"/><circle cx="747" cy="154" r="9"/><circle cx="795" cy="154" r="9"/><circle cx="843" cy="154" r="9"/>
+    <circle cx="555" cy="202" r="9"/><circle cx="603" cy="202" r="9"/><circle cx="651" cy="202" r="9"/><circle cx="699" cy="202" r="9"/><circle cx="747" cy="202" r="9"/><circle cx="795" cy="202" r="9"/><circle cx="843" cy="202" r="9"/>
+  </g>
+  <g fill="#ff4d4f" filter="url(#glow)">
+    <circle cx="555" cy="58" r="9"><animate attributeName="opacity" values=".12;1;.12" dur="5.6s" begin="0s" repeatCount="indefinite"/></circle><circle cx="603" cy="106" r="9"><animate attributeName="opacity" values=".12;1;.12" dur="5.6s" begin=".45s" repeatCount="indefinite"/></circle><circle cx="651" cy="154" r="9"><animate attributeName="opacity" values=".12;1;.12" dur="5.6s" begin=".9s" repeatCount="indefinite"/></circle><circle cx="699" cy="202" r="9"><animate attributeName="opacity" values=".12;1;.12" dur="5.6s" begin="1.35s" repeatCount="indefinite"/></circle><circle cx="747" cy="154" r="9"><animate attributeName="opacity" values=".12;1;.12" dur="5.6s" begin="1.8s" repeatCount="indefinite"/></circle><circle cx="795" cy="106" r="9"><animate attributeName="opacity" values=".12;1;.12" dur="5.6s" begin="2.25s" repeatCount="indefinite"/></circle><circle cx="843" cy="58" r="9"><animate attributeName="opacity" values=".12;1;.12" dur="5.6s" begin="2.7s" repeatCount="indefinite"/></circle><circle cx="795" cy="202" r="9"><animate attributeName="opacity" values=".12;1;.12" dur="5.6s" begin="3.15s" repeatCount="indefinite"/></circle>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;110 0;0 0" dur="9s" repeatCount="indefinite"/>
+    <ellipse cx="310" cy="204" rx="94" ry="12" fill="#05080c" opacity=".7"/><rect x="246" y="96" width="132" height="86" rx="24" fill="url(#robot)"/><rect x="258" y="108" width="108" height="51" rx="15" fill="#09121d" stroke="#79c0ff" stroke-width="2"/>
+    <circle cx="289" cy="133" r="11" fill="#ff4d4f" filter="url(#glow)"><animate attributeName="opacity" values="1;.25;1" dur="1.5s" repeatCount="indefinite"/></circle><circle cx="335" cy="133" r="11" fill="#ff4d4f" filter="url(#glow)"><animate attributeName="opacity" values="1;.25;1" dur="1.5s" begin=".25s" repeatCount="indefinite"/></circle><path d="M287 163Q312 177 338 163" stroke="#dbeafe" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M312 96V76" stroke="#8b949e" stroke-width="6" stroke-linecap="round"/><circle cx="312" cy="68" r="9" fill="#f9c513" filter="url(#glow)"><animate attributeName="r" values="7;10;7" dur="1.2s" repeatCount="indefinite"/></circle><rect x="266" y="181" width="28" height="24" rx="7" fill="#8b949e"/><rect x="331" y="181" width="28" height="24" rx="7" fill="#8b949e"/>
+    <g><animateTransform attributeName="transform" type="rotate" values="5 382 152;-38 382 152;5 382 152" dur="1.4s" repeatCount="indefinite"/><path d="M376 142L430 112" stroke="#8b949e" stroke-width="15" stroke-linecap="round"/><path d="M429 112L446 96M429 112L449 123" stroke="#f9c513" stroke-width="7" stroke-linecap="round"/><circle cx="430" cy="112" r="9" fill="#f9c513" filter="url(#glow)"/></g>
+  </g>
+  <circle cx="507" cy="125" r="7" fill="#f9c513" filter="url(#glow)"><animate attributeName="cx" values="455;507;555" dur="1.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="1.4s" repeatCount="indefinite"/></circle>
+</svg>
