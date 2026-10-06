@@ -40,6 +40,9 @@
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=Karansahni18&show_icons=true&theme=tokyonight&hide_border=true" alt="Karan's GitHub stats" />
   <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Karansahni18&theme=tokyonight&hide_border=true" alt="Karan's GitHub streak" />
 </p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Karansahni18/Karansahni18/main/assets/build-bot.svg" alt="Build bot activating green nodes" width="100%" />
+</p>
 
 ---
 
